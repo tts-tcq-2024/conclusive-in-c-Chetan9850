@@ -16,7 +16,7 @@ The [GitHub Actions](https://docs.github.com/en/actions) in this project impleme
 - No Duplications: Fails on finding duplication of 3 lines or more. There are no duplications, so this passes.
 - Limit complexity: The limit per function is set at 3 and it's currently failing
 - Build and Run: Runs the tests. It's passing currently, but there are hardly any tests. You need to add more.
-- Enter Reflections: Replace the `_enter` in the **Reflections** section below, within this file. This workflow fails till you replace it with your impressions.
+- Enter Reflections: Replace the in the **Reflections** section below, within this file. This workflow fails till you replace it with your impressions.
 
 As with any legacy, have a look at the code to understand it better.
 
@@ -42,7 +42,14 @@ This section is about your regular work / project, not about the code in this re
 
 Think about guiding refactoring-work in your regular/project teams. Think of the day-to-day work done in your team, and improving the quality of code.
 
-You have seen a few workflows in this repository. They are quality-gates to prevent duplication, control complexity and prove functionality. Do you think some of them have potential to guide code-improvements in your team? **_enter yes/no**
+You have seen a few workflows in this repository. They are quality-gates to prevent duplication, control complexity and prove functionality. Do you think some of them have potential to guide code-improvements in your team?  
+
+Yes
 
 During the next four weeks, what improvement do you plan in your code-quality practice? (in your regular work, not in this repository!)
-**_enter the practice here**
+
+i) Enhanced Code Reviews: I will dedicate more time to thoroughly reviewing my own code and my teammates' code, focusing on identifying potential bugs, ensuring adherence to coding standards, and providing constructive feedback.
+ii) Automated Testing: I will increase the coverage of unit tests in my code to ensure that new features and changes do not introduce bugs. I'll also start integrating more advanced testing practices, such as writing end-to-end tests for critical parts of the application.
+iii) Refactoring Legacy Code: I plan to allocate time each week to refactor sections of legacy code that I frequently work with, improving its structure and readability. This will involve breaking down large functions, reducing code duplication, and updating outdated coding practices.
+iv) Continuous Integration/Continuous Deployment (CI/CD) Integration: I will work on improving our CI/CD pipeline by incorporating more automated checks for code quality, such as linters and static analysis tools. This will help catch issues early in the development process.
+v) Documentation: I intend to improve the documentation of my code by writing clear comments and maintaining up-to-date technical documentation. This will make it easier for others (and myself in the future) to understand and maintain the code.
