@@ -1,4 +1,4 @@
-#include "typewise_alert.h"
+#include "typewise-alert.h"
 
 void checkAndAlert(AlertTarget alertTarget, BatteryCharacter batteryChar, double temperatureInC) {
     BreachType breachType = classifyTemperatureBreach(batteryChar.coolingType, temperatureInC);
